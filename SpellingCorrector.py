@@ -13,7 +13,7 @@ print(f.read())
 f.close()
 
 
-answer = input("[+] press 1 for some text, 2 for a file : ")
+answer = input("[+] Press 1 For Some Text, or 2 For a File : ")
 
 data = json.load(open("EnglishWords.json"))
 
@@ -67,11 +67,6 @@ elif answer == "2":
         f.close()
     else:
         print("[-] This File Dosen't Exsist")
-    
-        
-    
-    
-    
 
 else:
     print("[-] Sorry, Wrong Answer")
